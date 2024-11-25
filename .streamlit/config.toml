@@ -1,5 +1,5 @@
 [theme]
-base = "Light"  # Enforces light mode
+base = "light"  # Enforces light mode
 
 [layout]
 wideMode = false  # Disables wide mode (app will use centered layout)
