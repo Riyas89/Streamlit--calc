@@ -5,7 +5,7 @@ import requests
 import re
 
 
-st.set_page_config(page_title="Snowflake Cost Calculator", page_icon="hevo_logo.png")
+st.set_page_config(page_title="Snowflake Pricing Calculator", page_icon="hevo_logo.png")
 
 # Apply Hevo branding and layout changes
 st.markdown(
@@ -217,9 +217,9 @@ st.markdown(
 st.markdown(
     """
     <head>
-        <meta name="title" content="Snowflake Cost Calculator for 2025| Hevo">
+        <meta name="title" content="Snowflake Pricing Calculator for 2025| Hevo">
         <meta name="description" content="Calculate your Snowflake costs quickly and easily. Use Hevo's free calculator to estimate yearly compute and storage costs.">
-        <meta name="keywords" content="Snowflake Cost Calculator, Cloud Data Warehouse, Hevo, Snowflake Costs, Snowflake Pricing">
+        <meta name="keywords" content="Snowflake Cost Calculator, Cloud Data Warehouse, Hevo, Snowflake Costs, Snowflake Pricing, Snowflake Pricing Calculator">
         <meta name="author" content="Hevo Data">
     </head>
     """,
