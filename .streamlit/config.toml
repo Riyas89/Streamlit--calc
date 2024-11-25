@@ -1,8 +1,5 @@
 [theme]
-base = "light"  # Lock the app to light mode
-
-[server]
-headless = true  # Ensure the app runs in headless mode
+base = "Light"  # Enforces light mode
 
 [layout]
-wideMode = false  # Disable wide mode
+wideMode = false  # Disables wide mode (app will use centered layout)

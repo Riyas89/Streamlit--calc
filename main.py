@@ -13,6 +13,11 @@ st.markdown(
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap');
 
+[data-testid="stToolbar"] {
+        visibility: hidden;
+        height: 0;
+    }
+
 .stApp {
     background-color: white;
     padding-top: 20px;
