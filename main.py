@@ -222,7 +222,7 @@ st.markdown(
 )
 
 # Add the top banner image
-st.image('main_banner.svg', use_column_width=True)
+st.image('Banner.png', use_column_width=True)
 
 # Function to calculate Snowflake costs
 def calculate_cost(warehouse_multiplier, runtime_minutes, cost_per_credit, multiplier_value, storage_gb, transfer_gb):
