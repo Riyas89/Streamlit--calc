@@ -222,7 +222,7 @@ st.markdown(
 )
 
 # Add the top banner image
-st.image('C:\\Users\\Smarat Chakraborty\\Desktop\\Snowflake Pricing calculator\\main_banner.svg', use_column_width=True)
+st.image('main_banner.svg', use_column_width=True)
 
 # Function to calculate Snowflake costs
 def calculate_cost(warehouse_multiplier, runtime_minutes, cost_per_credit, multiplier_value, storage_gb, transfer_gb):
@@ -367,7 +367,7 @@ if button_col.button("Calculate Now", disabled=calculate_button_disabled):
 
 # CTA section with text, buttons on left, image on right
 # Load the local SVG file and encode it
-file_path = "C:\\Users\\Smarat Chakraborty\\Desktop\\Snowflake Pricing calculator\\sources_to_snowflake.svg"
+file_path = "sources_to_snowflake.svg"
 with open(file_path, "rb") as file:
     contents = file.read()
 data_url = base64.b64encode(contents).decode("utf-8")
