@@ -21,7 +21,12 @@ st.markdown(
 .stApp {
     background-color: white;
     padding-top: 20px;
+    overflow: hidden;  /* Prevent scrollbars */
 }
+.block-container {
+        padding: 1rem 1rem 0rem 1rem; /* Adjust padding to minimize height */
+    }
+
 
 .stButton>button {
     background-color: #FF7D42;
