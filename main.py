@@ -24,7 +24,7 @@ st.markdown(
     overflow: hidden;  /* Prevent scrollbars */
 }
 .block-container {
-        padding: 1rem 1rem 0rem 1rem; /* Adjust padding to minimize height */
+        padding: 0rem 0rem 2rem 0rem; /* Adjust padding to minimize height */
     }
 
 
