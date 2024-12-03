@@ -252,6 +252,7 @@ def calculate_cost(warehouse_multiplier, runtime_minutes, cost_per_credit, multi
     monthly_transfer_cost = transfer_gb * transfer_cost_per_gb
     yearly_storage_cost = (monthly_storage_cost + monthly_transfer_cost) * 12
 
+
     # Total cost
     yearly_total_cost = yearly_compute_cost + yearly_storage_cost
 
