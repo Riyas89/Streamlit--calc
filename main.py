@@ -334,7 +334,7 @@ if button_col.button("Calculate Now", disabled=calculate_button_disabled):
     compute_cost, yearly_compute_cost, storage_cost, yearly_total_cost = calculate_cost(
         warehouse_multiplier, runtime_minutes, cost_per_credit, multiplier_value, storage_gb, transfer_gb
     )
-
+ 
 
     # Send email to the webhook
     if email:
